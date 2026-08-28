@@ -63,13 +63,12 @@ body {
 }
 
 #home {
-  margin-top: 100px;
+    min-height: 70vh;
+  margin-top: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 100px;
-    
-    
     
 }
 
@@ -93,31 +92,132 @@ body {
 #profile {
     margin-top: 0px;
     max-width: 500px;
-
 }
 
 #profile h1{
-    font-size: 60px;
+    font-size: 65px;
 }
 #profile h3{
     margin-top: 8px;
-    font-size: 35px;
+    font-size: 40px;
      color: #22c55e;
      font-weight: 700;
      letter-spacing: 1px;
     
 }
 #profile p{
-    font-size: 30px;
+    font-size: 35px;
     margin-top: 10px;
-   line-height: 35px;
+   line-height: 40px;
 }
 #profile p:first-child {
     color: #9db4e1;
     font-weight: 600;
-}
-#profile p:last-child {
-    color: #9db4e1;
-    font-weight: 500;
     
 }
+#profile p:last-child {
+    margin-top: 5px;
+    color: #9db4e1;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding-left: 5px;
+    
+}
+
+
+#about{
+    min-height: 70vh;
+    padding: 100px 10%;
+    margin-top: 20px;
+}
+#content{
+    max-width: 80vw;
+}
+#about h2{
+    font-size: 50px;
+    margin-bottom: 25px;
+    font-weight: 700;
+    color: #22c55e;
+
+}
+#about h3{
+    font-size: 35px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: bisque;
+}
+#content1{
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 1px;
+    
+}
+#content2{
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+strong{
+    color: #aa79dc;
+    
+}
+
+#skills{
+    min-height: 90vh;
+    min-width: 80vw;
+    padding-left: 150px;
+   
+}
+
+#skill-content h2{
+    font-size: 50px;
+    margin-bottom: 25px;
+    font-weight: 700;
+    color: #22c55e;
+}
+
+#skill-content h3{
+        font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: bisque;
+}
+
+#cards{
+    width: 80vw;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    gap: 35px;
+}
+.card{
+    font-size: 25px;
+    background-color: #3f4040;
+    color: rgb(34, 197, 94);
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+    max-width: 600px;
+    border: 1px solid rgb(34,197,94);
+
+}
+.card h3{
+     padding-left: 15px;
+     padding-bottom: 20px;
+    font-size: 40px;
+    align-content: center;
+}
+.card p{
+    padding-left: 20px;
+    font-size: 20px;
+    color:beige;
+}
+.card img{
+    width: 60px;
+    height: 60px;
+  object-fit: contain;
+  transition: .3s;
+}
+
