@@ -53,7 +53,7 @@ body {
 
 .nav-links a {
     text-decoration: none;
-    color: #23b257;
+    color:  #22c55e;
     font-size: 15px;
 }
 
@@ -74,10 +74,10 @@ body {
 
 #profilepic {
     margin-left: 20px;
-    width: 400px;
-    height:400px ;
+    width: 450px;
+    height:450px;
     border: 2px solid #212121;
-    border-radius: 10px;
+    border-radius:50%;
     overflow: hidden;
     transform: translate(-30px);
 }
@@ -95,7 +95,8 @@ body {
 }
 
 #profile h1{
-    font-size: 65px;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #profile h3{
     margin-top: 8px;
@@ -126,8 +127,8 @@ body {
 
 
 #about{
-    min-height: 70vh;
-    padding: 100px 10%;
+    min-height: auto;
+    padding: 100px 10% 50px;
     margin-top: 20px;
 }
 #content{
@@ -162,6 +163,74 @@ strong{
     
 }
 
+#education{
+    min-height: 100vh;
+    padding: 30px 10% 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#education h2{
+    color: #22c55e;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+#myedu {
+    color:bisque;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.education-cointainer{
+    max-width:900px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.education-card{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    border: 1px solid #303633;
+}
+.education-card:hover{
+    border-color: #22c55e;
+    transform: translateX(8px);
+}
+
+.education-year{
+    min-width: 110px;
+    color: #22c55e;
+    font-size: 16px;
+    font-weight: 700;
+}
+.education-content{
+    border-left: 1px solid #303633;
+    padding-left: 30px;
+}
+.education-content h3{
+color: #e5e7eb;
+font-size: 25px;
+margin-bottom: 7px;
+}
+.education-content h4{
+    color: #22c55e;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.institution{
+    color: #e5e7eb;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.result{
+    color: #86efac;
+    font-size: 14px;
+}
 #skills{
     min-height: 90vh;
     min-width: 80vw;
@@ -214,10 +283,155 @@ strong{
     font-size: 20px;
     color:beige;
 }
-.card img{
-    width: 60px;
-    height: 60px;
-  object-fit: contain;
-  transition: .3s;
+
+
+
+#achivement{
+    min-height: auto;
+    min-width: 80vw;
+    padding-left: 150px;
+    margin-bottom: 60px;
+   
 }
 
+#achivement h2{
+    font-size: 50px;
+    margin-bottom: 25px;
+    font-weight: 700;
+    color: #22c55e;
+
+}
+
+#achivement h3{
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: bisque;
+}
+
+
+#achive-content{
+    width: 90%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    background-color: #3f4040;
+    border: 1px solid rgb(34,197,94) ;
+    border-radius: 8px;
+
+}
+
+#achive-content h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #86efac;
+
+}
+
+#achive-content p{
+    font-size: 25px;
+}
+
+#projects{
+    padding-left: 150px;
+
+}
+
+#project-content h2{
+    font-size: 50px;
+    margin-bottom: 25px;
+    font-weight: 700;
+    color: #22c55e;
+}
+
+#project-content h3{
+         font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: bisque;
+}
+
+.project-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3px;
+}
+
+.project-tags{
+    display: flex;
+    gap: 10px;
+
+}
+.project-tags span {
+    background: #22c55e;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#tacos-shop,
+#clone {
+
+    padding: 50px;
+    background-color: #3f4040;
+    border: 1px solid rgb(34, 197, 94);
+    border-radius: 8px;
+}
+#tacos-shop{
+       width: 85%;
+}
+#tacos-shop h3{
+    font-size: 32px;
+    color: antiquewhite;
+    margin-bottom: 10px;
+
+}
+#tacos-shop p{
+    font-size: 25px;
+     margin-bottom: 15px;
+}
+
+#clone{
+   width: 80%;
+   margin-right: 8px;
+}
+
+
+#clone h3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 32px;
+      color: antiquewhite;
+    margin-bottom: 10px;
+
+}
+
+#clone p{
+    font-size: 25px;
+     margin-bottom: 15px;
+}
+
+
+#clone img {
+    width: 50px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.project-link{
+    font-size: 15px;
+    color: #ddd;
+}
+
+.project-link:visited {
+    color: #aa79dc;
+}
+
+.project-link:hover {
+    color: #22c55e;
+}
