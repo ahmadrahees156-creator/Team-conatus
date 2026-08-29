@@ -5,36 +5,31 @@
     scroll-behavior: smooth;
 }
 
-body {
-    
+body { 
     background: #0b0f0e;
     color: #e5e7eb;
     font-family: "Inter", sans-serif;
    font-optical-sizing: auto;
    font-weight: 400;
    font-style: normal;
-     background-image: url("https://images.unsplash.com/photo-1577657254137-b81fccd70587?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+     
+     
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-   
+    background-repeat: no-repeat;  
 }
 
 #navbar {
     height: 70px;
     padding: 0 8%;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     background-image: url("https://images.unsplash.com/photo-1544637912-761c7e212891?q=80&w=1244&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
     border-bottom: 1px solid #ddd;
-
     position: sticky;
     top: 0;
     z-index: 10;
@@ -122,10 +117,8 @@ body {
     font-weight: 500;
     letter-spacing: 2px;
     padding-left: 5px;
-    
+
 }
-
-
 #about{
     min-height: auto;
     padding: 100px 10% 50px;
@@ -159,14 +152,12 @@ body {
     letter-spacing: 1px;
 }
 strong{
-    color: #aa79dc;
-    
+    color: #aa79dc;  
 }
 
 #education{
     min-height: 100vh;
     padding: 30px 10% 80px;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -270,7 +261,6 @@ margin-bottom: 7px;
     border-radius: 5px;
     max-width: 600px;
     border: 1px solid rgb(34,197,94);
-
 }
 .card h3{
      padding-left: 15px;
@@ -284,14 +274,11 @@ margin-bottom: 7px;
     color:beige;
 }
 
-
-
 #achivement{
     min-height: auto;
     min-width: 80vw;
     padding-left: 150px;
-    margin-bottom: 60px;
-   
+    margin-bottom: 60px;  
 }
 
 #achivement h2{
@@ -299,7 +286,6 @@ margin-bottom: 7px;
     margin-bottom: 25px;
     font-weight: 700;
     color: #22c55e;
-
 }
 
 #achivement h3{
@@ -308,7 +294,6 @@ margin-bottom: 7px;
     font-weight: 600;
     color: bisque;
 }
-
 
 #achive-content{
     width: 90%;
@@ -319,7 +304,6 @@ margin-bottom: 7px;
     background-color: #3f4040;
     border: 1px solid rgb(34,197,94) ;
     border-radius: 8px;
-
 }
 
 #achive-content h3{
@@ -327,7 +311,6 @@ margin-bottom: 7px;
     margin-bottom: 20px;
     font-weight: 500;
     color: #86efac;
-
 }
 
 #achive-content p{
@@ -336,7 +319,6 @@ margin-bottom: 7px;
 
 #projects{
     padding-left: 150px;
-
 }
 
 #project-content h2{
@@ -400,7 +382,6 @@ margin-bottom: 7px;
    margin-right: 8px;
 }
 
-
 #clone h3 {
     display: flex;
     align-items: center;
@@ -434,4 +415,122 @@ margin-bottom: 7px;
 
 .project-link:hover {
     color: #22c55e;
+}
+
+#contact{
+    padding: 100px 10%;
+}
+
+#contact-heading h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #22c55e;
+}
+
+#contact-heading h3{
+         font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: bisque;
+}
+
+.contact-container{
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+.contact-info,.message{
+   padding: 35px;
+   border: 1px solid #303633;
+   border-radius: 15px;
+   background: rgba(11,15,14,.85);
+}
+.contact-info :hover,.message :hover{
+    font-size: 25px;
+    border-color: #22c55e;
+}
+
+.contact-info h3,.message h3 {
+    color: #22c55e;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.contact-info p,.message p {
+    color: #9db4e1;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+.contact-links{
+    padding: 30px;
+    margin-left: 15px;
+ display: flex;
+ flex-direction: column;
+ gap: 15px;
+ font-size: 20px;
+}
+.contact-links a {
+   color: #e5e7eb;
+ text-decoration: none;
+}
+
+.contact-links a:hover{
+    color: #22c55e;
+}
+
+.contact-button{
+    display: inline-block;
+    padding: 12px 20px;
+    background: #22c55e;
+    color: #07100b;
+    border-radius: 7px;
+    text-decoration: none;
+    font-weight: 700;
+}
+.contact-button :hover{
+ background: #86efac;
+}
+
+#footer{
+    padding: 40px 10% 25px;
+    text-align: center;
+    border-top: 2px solid #303633;
+    background: rgba(11,15,14,.95);
+}
+.footerlogo{
+    color: #22c55e;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+      flex-wrap: wrap;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+.footer-links a{
+    color: #9db4e1;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #22c55e;
+    
+}
+
+#footer p {
+    color: #64748b;
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+#footer .footer-made {
+    color: #86efac;
 }
