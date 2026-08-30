@@ -173,7 +173,7 @@ strong{
     margin-bottom: 20px;
 }
 
-.education-cointainer{
+.education-container{
     max-width:900px;
     margin: auto;
     display: flex;
@@ -449,7 +449,7 @@ margin-bottom: 7px;
    border-radius: 15px;
    background: rgba(11,15,14,.85);
 }
-.contact-info :hover,.message :hover{
+.contact-info:hover,.message:hover{
     font-size: 25px;
     border-color: #22c55e;
 }
@@ -491,7 +491,7 @@ margin-bottom: 7px;
     text-decoration: none;
     font-weight: 700;
 }
-.contact-button :hover{
+.contact-button:hover{
  background: #86efac;
 }
 
@@ -535,7 +535,57 @@ margin-bottom: 7px;
     color: #86efac;
 }
 
-@media (max-width:480px) {
+@media(max-width:1024px){
+    #navbar{
+        padding: 0 5%;
+    }
+    #home{
+        margin-top: 70px;
+        gap: 50px;
+    }
+    #profilepic{
+        width: 300px;
+        height: 300px;
+        padding-left: 10px;
+    }
+    #profile h1{
+        font-size: 48px;
+    }
+     #profile h3{
+        font-size: 32px;
+    }
+    #profile p{
+        font-size: 25px;
+        line-height: 32px;
+    }
+    #about,#contact{
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+    #skills,#achivement,#projects{
+        padding-left: 7px;
+    }
+
+    #cards{
+        width: 85vw;
+    }
+    .card h3{
+        font-size: 32px;
+    }
+    .card p{
+        font-size: 18px;
+    }
+
+    #achive-content{
+        width: 90%;
+    }
+    #tacos-shop,#clone{
+        width: 95%;
+        padding: 35px;
+    }
+}
+
+@media (max-width:768px) {
     #navbar {
         height: auto;
         min-height: 70%;
@@ -582,7 +632,7 @@ margin-bottom: 7px;
         font-size: 20px;
         line-height: 30px;
     }
-    #profile p:lastchild{
+    #profile p:last-child{
         letter-spacing: 1px;
     }
 
@@ -612,11 +662,7 @@ margin-bottom: 7px;
         padding: 20px;
         align-items: flex-start;
     }
-    .education-card{
-        gap: 15px;
-        padding: 20px;
-        align-items: flex-start;
-    }
+    
     .education-year{
         min-width: 65px;
         font-size: 14px;
@@ -716,7 +762,7 @@ font-size: 17px;
 .contact-info,.message{
     font-size: 22px;
 }
-.contact-infop,.message p{
+.contact-info p,.message p{
     font-size: 15px;
 }
 #footer{
@@ -726,3 +772,4 @@ font-size: 17px;
     gap: 15px;
 }
 }
+
