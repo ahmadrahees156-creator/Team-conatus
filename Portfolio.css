@@ -277,6 +277,7 @@ margin-bottom: 7px;
 #achivement{
     min-height: auto;
     min-width: 80vw;
+    padding-top: 50px;
     padding-left: 150px;
     margin-bottom: 60px;  
 }
@@ -774,4 +775,3 @@ font-size: 17px;
     gap: 15px;
 }
 }
-
