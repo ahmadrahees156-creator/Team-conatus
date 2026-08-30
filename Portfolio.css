@@ -564,6 +564,8 @@ margin-bottom: 7px;
     }
     #skills,#achivement,#projects{
         padding-left: 7px;
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
 
     #cards{
