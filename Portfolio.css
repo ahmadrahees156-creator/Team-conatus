@@ -223,7 +223,7 @@ margin-bottom: 7px;
     font-size: 14px;
 }
 #skills{
-    min-height: 90vh;
+    min-height: auto;
     min-width: 80vw;
     padding-left: 150px;
    
@@ -245,7 +245,7 @@ margin-bottom: 7px;
 
 #cards{
     width: 80vw;
-    height: 60vh;
+    height: auto;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     justify-content: center;
@@ -535,7 +535,7 @@ margin-bottom: 7px;
     color: #86efac;
 }
 
-@media(max-width:1024px){
+@media(max-width:1024px) and (orientation:landscape){
     #navbar{
         padding: 0 5%;
     }
